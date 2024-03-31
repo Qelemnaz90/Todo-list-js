@@ -1,0 +1,58 @@
+.todo img {
+    width: 130px;
+    height: 150px;
+    margin-left: 100px;
+}
+
+.todo {
+    display: flex;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+
+
+.todo h1 {
+    font-size:xx-large;
+    color:blue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    padding-left: 40px;
+    
+}
+
+body {
+    background-image: url(https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg);
+    background-size: 1500px;
+
+}
+
+.container {
+    margin-left: 500px;
+}
+
+#toDoInput {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: beige;
+}
+
+.container button {
+    height: 30px;
+    width: 50px;
+    border-radius: 5px;
+    color:white;
+    background-color:blueviolet;
+}
+#toDoList {
+    margin-left: 500px;
+    width: 300px;
+    
+}
+
+
+.delete {
+    margin-right: 100px;
+    background-color: brown;
+    border-radius: 5px;
+}
