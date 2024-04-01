@@ -22,9 +22,10 @@ function renderList() {
         listItem.innerHTML = `${arr[i]}<button class="delete">Delete</button>`;
         listItem.querySelector('.delete').addEventListener('click', function() {
             arr.splice(i, 1);
-            renderList();
         });
         list.appendChild(listItem);
     }
     console.log(arr);
 }
+
+
